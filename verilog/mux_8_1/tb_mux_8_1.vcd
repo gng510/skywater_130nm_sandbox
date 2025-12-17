@@ -1,0 +1,50 @@
+$date
+	Wed Dec 17 11:07:44 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module tb_mux_8_1 $end
+$var wire 1 ! out $end
+$var reg 8 " in [7:0] $end
+$var reg 3 # sel [2:0] $end
+$scope module uut $end
+$var wire 8 $ i [7:0] $end
+$var wire 3 % sel [2:0] $end
+$var reg 1 ! f $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx %
+bx $
+bx #
+bx "
+x!
+$end
+#5
+1!
+b1 "
+b1 $
+b0 #
+b0 %
+#15
+0!
+b0 "
+b0 $
+#30
+b110 #
+b110 %
+#50
+1!
+b1000000 "
+b1000000 $
+#75
+0!
+b10000 "
+b10000 $
+#125
